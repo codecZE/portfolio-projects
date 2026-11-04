@@ -1,0 +1,5 @@
+Timestamp (UTC),Source Artifact,Host/User,Event Summary,Phase
+2026-03-30 08:00:12,Email Gateway,workstation01\jdoe,Phishing email received with malicious attachment,Initial Access
+2026-03-30 08:05:45,Sysmon ID 1,workstation01\jdoe,Process cmd.exe launched malicious script payload.bat,Execution
+2026-03-30 08:12:30,/var/log/auth.log,server01\root,Unauthorized sudo command execution (sudo su),Privilege Escalation
+2026-03-30 08:20:00,Autopsy Carving,workstation01\jdoe,Deleted staging archive carved from unallocated space,Exfiltration Prep
